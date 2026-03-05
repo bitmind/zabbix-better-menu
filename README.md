@@ -1,6 +1,6 @@
-# Zabbix better menu
+# A better Zabbix menu
 
-A slightly improved Zabbix menu, with a task-centric structure.
+A slightly improved version of Zabbix menu, with a task-centric structure.
 
 ## Goals
 - Reduce the cognitive effort during menu navigation
