@@ -37,15 +37,19 @@ Each section tries to represent a high level task:
 ### Detailed changes
 - The Monitoring and Data Collection sections are renamed **View** and **Configure**. - The Inventory and Reports sections are merged into the View section. The Reports menu contains only reports related to monitored objects; reports regarding the status of Zabbix have been moved to the Admin section.
  The new  **Maps** submenu includes the management of icons, backgrounds, and mapping rules (for admin users). 
+
 ![Screen0968](docs/screen0967.png)
 
 - **Web monitoring**: a new entry for direct access to all web scenarios.
+
 ![Screen0969](docs/screen0969.png)
 
 - A new **Discover** section groups together network discovery rules, discovery status, and discovery actions (frequently used together).
+
 ![Screen0966](docs/screen0966.png)
 
 - The Administration section is renamed **Admin** and completely reorganized into submenus: Proxies, Global (macros, regexp, timeouts), Frontend, General, and System info. Also the Users section is merged into Admin.
+
 ![Screen0965](docs/screen0965.png)
 
 - The Services section is renamed **Evaluate** and also hosts service actions, for easier access. The Alerts section is renamed **React**.
