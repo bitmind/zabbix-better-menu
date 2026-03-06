@@ -18,12 +18,10 @@ Design principles:
 - Use icons whenever possible
 - Respect roles and permissions
 
-Project status:
-
--  Currently this project is basically a proof-of-concept.
 
 
-## A task-centric design
+
+## Task-centric design
 Each section tries to represent a high level task:
 
 -  **View** your monitored environment 
@@ -89,14 +87,21 @@ To revert to the default Zabbix menu: disable the module on Administration -> Ge
 To uninstall the entire module: remove it from module directory and select *Scan directory*.
 
 
+## About
+
+### Project status
+
+Project status:
+
+-  Currently this project is basically a proof-of-concept.
+
+### Support
+Please open a issue if you have any questions or find a bug.
+
 ### Known issues
 
 
-- Some user role settings (Access to UI elements) may not match the new menu structure, in particular for Administration section
-- Icons: for simplicity we use a selection of builtin Zabbix icons from defines.inc.php; sometimes the same icon is reused for different menu entries.  New fancy icons will be designed in future versions. Maybe.
-- Zabbix pages in former Administration>General menu keep showing a header with a drop-down menu which matches the old menu structure
+- Icons: sometimes the same icon is reused for different menu entries. For simplicity we use a selection of builtin Zabbix icons from defines.inc.php. New fancy icons will be designed in future versions. Maybe.
+- Some user role settings (in the Access to UI elements screen) may not match the new menu structure, in particular for Administration section. However the menu respect the user role permission.
+- Zabbix pages in former Administration>General menu keep showing a header with a drop-down menu which matches the old menu structure.
 - When clicking Backgrounds entry, the Icons entry will be showed as the selected entry in the menu
-
-## Support
-Please open a issue if you have any questions or find a bug.
-
