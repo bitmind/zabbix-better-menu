@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2.0,
+    "id": "custom_menu",
+    "name": "QUAD - Enhanced task-centric menu",
+    "version": "1.2",
+    "namespace": "CustomMenu",
+    "author": "Quadrata",
+    "description": "A custom replacement for the Zabbix frontend menu, with a task-centric structure.",
+    "url": "",
+    "assets": {
+        "js": [
+            "menu-cleanup.js"
+        ]
+    },
+    "config": {
+        "show_icons_2nd_level": 0
+    },
+	"actions": {
+	    "module.custom_menu.config.edit": {
+	        "class": "ModuleConfigEditAction",
+	        "view": "config.edit"
+	    },
+	    "module.custom_menu.config.update": {
+	        "class": "ModuleConfigUpdateAction"
+	    }
+	}
+}
