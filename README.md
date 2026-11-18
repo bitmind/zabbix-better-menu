@@ -1,6 +1,6 @@
 # A better Zabbix menu
 
-A slightly improved version of Zabbix menu, with a task-centric structure.
+A slightly improved version of Zabbix 7.0 menu, with a task-centric structure.
 
 
 ![Screen0964](docs/screen0964.png)
